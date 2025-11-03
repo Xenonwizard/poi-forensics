@@ -1,0 +1,2 @@
+Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com
+Requirement already satisfied: numpy in /home/ssm-user/miniconda3/envs/poiforensics/lib/python3.8/site-packages (1.20.3)
