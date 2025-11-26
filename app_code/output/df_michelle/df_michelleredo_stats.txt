@@ -1,0 +1,6 @@
+STATISTICS
+=============================
+
+Total samples: 48
+Face detected percentage: 100.00%
+Percentage above global score: 31.25%
