@@ -8,70 +8,12 @@ def gaus2prob(x):
     return (1-erf(x/np.sqrt(2.0))) / 2
 
 
-# def create_plot(dict_out, output_image, dist_normalization):
-#     embs_track = np.asarray(dict_out['embs_track'])
-#     embs_dists = np.asarray(dict_out['embs_dists'])
-#     while len(embs_dists.shape) > 1:
-#         embs_dists = embs_dists[..., -1]
-#     embs_range = np.asarray(dict_out['embs_range'])
-#     if 'global_score' in dict_out:
-#         global_score = dict_out['global_score']
-#     else:
-#         global_score = None
-
-#     xmin = np.PINF
-#     xmax = 0
-#     fig = plt.figure(figsize=(12, 6))
-#     for ids in np.unique(embs_track):
-#         inds = embs_track == ids
-#         dist = embs_dists[inds]
-#         rang = np.mean(embs_range[inds], -1) / 25.0
-#         xmin = min(xmin, np.min(rang))
-#         xmax = max(xmax, np.max(rang))
-#         if dist_normalization:
-#             plt.semilogy(rang, gaus2prob(dist), 'k', linewidth=2)
-#         else:
-#             plt.plot(rang, dist, 'k', linewidth=2)
-
-#     if global_score is not None:
-#         if dist_normalization:
-#             plt.hlines(gaus2prob(global_score), xmin, xmax, 'b', linestyles='dashdot', label='global_score')
-#         else:
-#             plt.hlines(global_score, xmin, xmax, 'b', linestyles='dashdot', label='global_score')
-
-#     plt.grid()
-#     plt.legend()
-#     plt.xlabel('time')
-#     if dist_normalization:
-#         plt.gca().invert_yaxis()
-#     else:
-#         plt.ylabel('distance')
-#     fig.savefig(output_image)
-
-
-# if __name__ == "__main__":
-
-#     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter,
-#                                      description='create plot.')
-#     parser.add_argument('--file_npz', type=str,
-#                         help='numpy file.')
-#     parser.add_argument('--output_image', type=str,
-#                         help='output image (with extension .png).')
-#     parser.add_argument('--dist_normalization', type=int, default=0,
-#                         help="if True, the distances are normalized using on the values obtained on pristine videos.")
-#     argd = parser.parse_args()
-
-#     create_plot(np.load(argd.file_npz), argd.output_image)
 def create_plot(dict_out, output_image, dist_normalization):
     embs_track = np.asarray(dict_out['embs_track'])
     embs_dists = np.asarray(dict_out['embs_dists'])
-
-    # collapse last dimension if needed
     while len(embs_dists.shape) > 1:
         embs_dists = embs_dists[..., -1]
-
     embs_range = np.asarray(dict_out['embs_range'])
-
     if 'global_score' in dict_out:
         global_score = dict_out['global_score']
     else:
@@ -80,43 +22,22 @@ def create_plot(dict_out, output_image, dist_normalization):
     xmin = np.PINF
     xmax = 0
     fig = plt.figure(figsize=(12, 6))
-
-    # ---------------------------
-    # COLLECT DATA FOR STATISTICS
-    # ---------------------------
-    all_times = []
-    all_values = []
-
     for ids in np.unique(embs_track):
         inds = embs_track == ids
         dist = embs_dists[inds]
         rang = np.mean(embs_range[inds], -1) / 25.0
-
         xmin = min(xmin, np.min(rang))
         xmax = max(xmax, np.max(rang))
-
-        # for stats:
         if dist_normalization:
-            vals = gaus2prob(dist)
+            plt.semilogy(rang, gaus2prob(dist), 'k', linewidth=2)
         else:
-            vals = dist
-
-        all_times.append(rang)
-        all_values.append(vals)
-
-        # plot
-        if dist_normalization:
-            plt.semilogy(rang, vals, 'k', linewidth=2)
-        else:
-            plt.plot(rang, vals, 'k', linewidth=2)
-
-    # flatten arrays
-    all_times = np.concatenate(all_times)
-    all_values = np.concatenate(all_values)
+            plt.plot(rang, dist, 'k', linewidth=2)
 
     if global_score is not None:
-        gs_val = gaus2prob(global_score) if dist_normalization else global_score
-        plt.hlines(gs_val, xmin, xmax, 'b', linestyles='dashdot', label='global_score')
+        if dist_normalization:
+            plt.hlines(gaus2prob(global_score), xmin, xmax, 'b', linestyles='dashdot', label='global_score')
+        else:
+            plt.hlines(global_score, xmin, xmax, 'b', linestyles='dashdot', label='global_score')
 
     plt.grid()
     plt.legend()
@@ -125,34 +46,19 @@ def create_plot(dict_out, output_image, dist_normalization):
         plt.gca().invert_yaxis()
     else:
         plt.ylabel('distance')
-
     fig.savefig(output_image)
 
-    # ---------------------------
-    #      COMPUTE STATISTICS
-    # ---------------------------
-    stats_txt = output_image.replace(".png", "_stats.txt")
 
-    face_detected_mask = ~np.isnan(all_values)
-    pct_face_detected = np.mean(face_detected_mask) * 100
+if __name__ == "__main__":
 
-    if global_score is not None:
-        pct_above = np.mean(all_values[face_detected_mask] > gs_val) * 100
-    else:
-        pct_above = None
+    parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+                                     description='create plot.')
+    parser.add_argument('--file_npz', type=str,
+                        help='numpy file.')
+    parser.add_argument('--output_image', type=str,
+                        help='output image (with extension .png).')
+    parser.add_argument('--dist_normalization', type=int, default=0,
+                        help="if True, the distances are normalized using on the values obtained on pristine videos.")
+    argd = parser.parse_args()
 
-    # ---------------------------
-    #      WRITE STATS TO TEXT
-    # ---------------------------
-    with open(stats_txt, "w") as f:
-        f.write("STATISTICS\n")
-        f.write("=============================\n\n")
-        f.write(f"Total samples: {len(all_values)}\n")
-        f.write(f"Face detected percentage: {pct_face_detected:.2f}%\n")
-
-        if pct_above is not None:
-            f.write(f"Percentage above global score: {pct_above:.2f}%\n")
-        else:
-            f.write("No global score provided.\n")
-
-    print(f"Stats saved to {stats_txt}")
+    create_plot(np.load(argd.file_npz), argd.output_image)
