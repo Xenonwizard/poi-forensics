@@ -1,0 +1,501 @@
+ 1683  ls
+ 1684  cd IDProtector_Preview/
+ 1685  cp scripts/setup/model_setup_instantid.py generation_methods/InstantID/
+ 1686  cd generation_methods/InstantID
+ 1687  python model_setup_instantid.py
+ 1688  CUDA_VISIBLE_DEVICES=$cuda_index python -m scripts.evaluation.perturb_get_metric --in_channels 5 --epsilon ${epsilon} --clip_epsilon ${clip_epsilon} --clean_data_dir /path/to/input_dir --save_dir /path/to/output_dir --path_to_state_dict ${path_to_state_dict} --metrics_save_path /path/to/output_dir/metrics.csv --batch_size 1 --cuda 0
+ 1689  ython -m scripts.setup.model_setup
+ 1690  Python -m scripts.setup.model_setup
+ 1691  python -m scripts.setup.model_setup
+ 1692  cd ..
+ 1693  python -m scripts.setup.model_setup
+ 1694  cd ~
+ 1695  ls -a
+ 1696  git clone https://github.com/Xenonwizard/poi-forensics.git
+ 1697  ls -a
+ 1698  cd poi-forensics/
+ 1699  tmux
+ 1700  tmux attach -t 0
+ 1701  cd
+ 1702  cd~
+ 1703  cd ~
+ 1704  ls -a
+ 1705  cd poi-forensics/
+ 1706  ls -a
+ 1707  cd app_code
+ 1708  sudo apt install software-properties-common
+ 1709  sudo add-apt-repository ppa:deadsnakes/ppa
+ 1710  lsb_release -a
+ 1711  sudo apt install python3.11-venv
+ 1712  python3.11 -m venv venv311
+ 1713  ls -a
+ 1714  source ./venv311/bin/activate
+ 1715  pip install numpy
+ 1716  source ./venv311/bin/activate
+ 1717  sudo apt install python3.8-venv
+ 1718  python3.8 -m venv venv38
+ 1719  source ./venv38/bin/activate
+ 1720  ls -a
+ 1721  cd pois
+ 1722  ls -a
+ 1723  cd ..
+ 1724  export PYTHONPATH="${PYTHONPATH}:./pythonlib/"
+ 1725  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 1726  ls -a
+ 1727  git pull
+ 1728  ls -a
+ 1729   
+ 1730  export PYTHONPATH="${PYTHONPATH}:./pythonlib/"
+ 1731  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 1732  sudo apt update
+ 1733  sudo apt install ffmpeg
+ 1734  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 1735  ls -a
+ 1736  cd videos
+ 1737  ls -a
+ 1738  export INPUT_VIDEO="./videos/Nicolas Cage calls AI inhumane and says its future scares him.mp4"
+ 1739  export OUPUT_NPZ="./output/results.npz"
+ 1740  cd ..
+ 1741  mkdir output
+ 1742  ls -a
+ 1743  export PYTHONPATH="${PYTHONPATH}:./pythonlib/"
+ 1744  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 1745  ls -a
+ 1746  cd ~
+ 1747  ls -a
+ 1748  cd poi-forensics/
+ 1749  ls -a
+ 1750  cd app_code
+ 1751  source ./venv38/bin/activate
+ 1752  export PYTHONPATH="${PYTHONPATH}:./pythonlib/"
+ 1753  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 1754  export INPUT_VIDEO="./videos/nicolas_cage_ai_interview.mp4"
+ 1755  export OUPUT_NPZ="./output/results.npz"
+ 1756  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 1757  cd videos
+ 1758  mv "Nicolas Cage calls AI inhumane and says its future scares him.mp4" nicolas_cage_ai_interview.mp4
+ 1759  ls -a
+ 1760  cd ..
+ 1761  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 1762  python --version
+ 1763  ffprobe -version
+ 1764  sudo apt-get update
+ 1765  sudo apt-get install libicu70
+ 1766  ffprobe -version
+ 1767  sudo apt-getupdate
+ 1768  sudo apt-get install ffprobe
+ 1769  ffprobe -version
+ 1770  sudo apt-get install ffprobe
+ 1771  apt-get update && apt-get install ffmpeg
+ 1772  sudo apt install ffmpeg
+ 1773  ffmpeg -version
+ 1774  sudo apt autoremove
+ 1775  sudo apt install ffmpeg
+ 1776  ffmpeg -version
+ 1777  sudo add-apt-repository -y universe
+ 1778  sudo apt install -y libicu70
+ 1779  sudo apt install python3.7
+ 1780  python3.7 -m venv venv37
+ 1781  sudo apt install python3.7-venv
+ 1782  python3.7 -m venv venv37
+ 1783  ls -a
+ 1784  source ./venv37/bin/s
+ 1785  source ./venv37/bin/activate
+ 1786  pip isntall requirements.txt 
+ 1787  pip install -r requiremeDnts.txt 
+ 1788  pip install -r requirements.txt 
+ 1789  export PYTHONPATH="${PYTHONPATH}:./pythonlib/"
+ 1790  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 1791  ffprobe -verison
+ 1792  ffmpeg
+ 1793  sudo yum remove ffmpeg 
+ 1794  sudo apt-get install libicu-dev
+ 1795  sudo apt-get update
+ 1796  sudo apt-get install --reinstall ffmpeg
+ 1797  cd ~
+ 1798  ls -a
+ 1799  tmux
+ 1800  cd ~
+ 1801  cd poi-forensics/
+ 1802  ls -a
+ 1803  cd app_code/
+ 1804  bash create_conda_env.sh
+ 1805  conda activate poiforensics
+ 1806  pip install -r requirements.txt
+ 1807  wget https://www.grip.unina.it/download/poiforensics_resources.zip
+ 1808  echo "d099ee4bda5b833514214c15469deadc  poiforensics_resources.zip" | md5sum -c -
+ 1809  unzip poiforensics_resources.zip
+ 1810  n
+ 1811  bash run_demo.sh
+ 1812  conda activate poiforensics
+ 1813  bash run_demo.sh
+ 1814  ls -a
+ 1815  ls -a videos
+ 1816  export PYTHONPATH="${PYTHONPATH}:$(pwd)/pythonlib"
+ 1817  export OUTPUT_NPZ="./output/result_poiforensics.npz"
+ 1818  export INPUT_VIDEO="./videos/nicolas_cage_ai_interview.mp4"
+ 1819  export GPU=0
+ 1820  python main_test.py   --file_video_input "${INPUT_VIDEO}"   --file_output "${OUTPUT_NPZ}"   --dir_poi "${DIR_POI}"   --gpu "${GPU}"   --create_plot 1   --create_videoout 1
+ 1821  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 1822  conda install -y -c conda-forge -c pytorch-nightly pytorch cudatoolkit=11.1
+ 1823  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 1824  pip install numpy>=1.22
+ 1825  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 1826  pip install numpy==1.22
+ 1827  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 1828  pip uninstall -y torch torchvision torchaudio
+ 1829  conda install -y -c pytorch   pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0
+ 1830  python - <<'PY'
+ 1831  import torch, torchvision
+ 1832  print("torch:", torch.__version__, "cuda:", torch.version.cuda)
+ 1833  print("vision:", torchvision.__version__)
+ 1834  print("cuda available:", torch.cuda.is_available())
+ 1835  PY
+ 1836  conda install  pytorch==1.7.1 torchvision==0.8.2 
+ 1837  conda install -y torchaudio==0.7.2 cudatoolkit=11.0
+ 1838  conda install -y -c pytorch   pytorch==1.10.2 torchvision==0.11.3 torchaudio==0.10.2 cudatoolkit=11.3
+ 1839  python - <<'PY'
+ 1840  import torch, torchvision, torchaudio
+ 1841  print("torch:", torch.__version__, "cuda:", torch.version.cuda, "available:", torch.cuda.is_available())
+ 1842  print("vision:", torchvision.__version__)
+ 1843  print("audio:", torchaudio.__version__)
+ 1844  PY
+ 1845  export PYTHONPATH="${PYTHONPATH}:$(pwd)/pythonlib"
+ 1846  python main_test.py --file_video_input "$INPUT_VIDEO" --file_output "$OUTPUT_NPZ"   --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0   --create_plot 1 --create_videoout 1
+ 1847  pip install -r requirements.txt
+ 1848  export PYTHONPATH="${PYTHONPATH}:$(pwd)/pythonlib"
+ 1849  python main_test.py --file_video_input "$INPUT_VIDEO" --file_output "$OUTPUT_NPZ"   --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0   --create_plot 1 --create_videoout 1
+ 1850  ls -a
+ 1851  rm -rf venv38
+ 1852  rm -rf venv311
+ 1853  rm -rf venv37
+ 1854  git add .
+ 1855  git commit -m "first results"
+ 1856  git push
+ 1857  git reset HEAD~  
+ 1858  git reset HEAD~  
+ 1859  nano .gitignore
+ 1860  mv .gitignore ../.gitignore
+ 1861  ls -a
+ 1862  cd ..
+ 1863  ls -a
+ 1864  cat .git
+ 1865  cat .gitignore
+ 1866  git add .
+ 1867  git commit -m "first results"
+ 1868  git reset HEAD~
+ 1869  nano .gitignore
+ 1870  git add .
+ 1871  git commit -m "first results"
+ 1872  git push
+ 1873  git remote add origin https://github.com/Xenonwizard/poi-forensics.git
+ 1874  git push -u origin main
+ 1875  git remote -v
+ 1876  git push origin main
+ 1877  git remote remove origin
+ 1878  git remote -v
+ 1879  # should show nothing
+ 1880  git remote add origin git@github.com:Xenonwizard/poi-forensics.git
+ 1881  git push -u origin main
+ 1882  git pull
+ 1883  git pull origin main
+ 1884  git config pull.rebase false
+ 1885  git pull origin main
+ 1886  git add .
+ 1887  git commit -m "first results"
+ 1888  git push
+ 1889  git push --set-upstream origin main
+ 1890  cd app_code/
+ 1891  nano eval_poi.py
+ 1892  ls -a
+ 1893  ls -a output
+ 1894  nano eval_poi.py
+ 1895  python eval_poi.py 
+ 1896  nano eval_poi.py
+ 1897  python eval_poi.py 
+ 1898  nano eval_poi.py
+ 1899  python eval_poi.py 
+ 1900  nano eval_poi.py
+ 1901  cd pois
+ 1902  ls -a
+ 1903  cd nicolas-cage/
+ 1904  cd app_
+ 1905  cd appid
+ 1906  ls -a
+ 1907  cd app_idreveal/
+ 1908  cd ..
+ 1909  cd ~/poi-forensics/app_code/
+ 1910  ls -a
+ 1911  nano eval_poi.py 
+ 1912  python eval_poi.py 
+ 1913  nano eval_poi.py 
+ 1914  rm -rf eval_poi.py 
+ 1915  nano eval_poi_both.py
+ 1916  ls -a videos
+ 1917  python main_test.py   --file_video_input "./videos/nicolas_cage_ai_interview.mp4"   --file_output "./output/result1.npz"   --dir_poi "./pois/nicolas-cage/app_idreveal"   --gpu 0 --create_plot 0 --create_videoout 0
+ 1918  cd ..
+ 1919  cd app_code/
+ 1920  nano eval_idreveal.py
+ 1921  python eval_idreveal.py
+ 1922  ls -a
+ 1923  ls -a output
+ 1924  nano eval_
+ 1925  nano eval_idreveal.py 
+ 1926  cd pois
+ 1927  cd nicolas-cage/
+ 1928  ls -a
+ 1929  cd app_idreveal/
+ 1930  ls -a
+ 1931  tmux
+ 1932  cd ~
+ 1933  ls =a
+ 1934  ls -a
+ 1935  cd poi-forensics/
+ 1936  ls -a
+ 1937  cd app_code/
+ 1938  ls -a
+ 1939  ls -a videos
+ 1940  export INPUT_VIDEO=./videos/nicolas_cage_ai_interview.mp4 
+ 1941  export OUPUT_NPZ=./output/result2.npz
+ 1942  conda start poiforensics
+ 1943  conda start poiforensic
+ 1944  conda activate poiforensic
+ 1945  conda activate poiforensics
+ 1946  export PYTHONPATH="${PYTHONPATH}:./pythonlib/"
+ 1947  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./poi/nicolas-cage/app_idreveal" --gpu 0                     --create_plot 1 --create_videoout 1
+ 1948  ls -a
+ 1949  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_idreveal" --gpu 0                     --create_plot 1 --create_videoout 1
+ 1950  ls -a
+ 1951  cd output
+ 1952  ls -a
+ 1953  git add .
+ 1954  git commit -m "result 2"
+ 1955  git push
+ 1956  git pull
+ 1957  export INPUT_VIDEO=./videos/nicolasvideo2.mp4
+ 1958  export OUPUT_NPZ=./output/nicvideo2.npz
+ 1959  export PYTHONPATH="${PYTHONPATH}:./pythonlib/"
+ 1960  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 1961  ls -a
+ 1962  cd ..
+ 1963  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 1964  ls -a
+ 1965  cd output
+ 1966  ls -a
+ 1967  export OUPUT_NPZ=./output/nicvideo2_idreveal.npz
+ 1968  export PYTHONPATH="${PYTHONPATH}:./pythonlib/"
+ 1969  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./poi/nicolas-cage/app_idreveal" --gpu 0                     --create_plot 1 --create_videoout 1
+ 1970  cd ..
+ 1971  export PYTHONPATH="${PYTHONPATH}:./pythonlib/"
+ 1972  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./poi/nicolas-cage/app_idreveal" --gpu 0                     --create_plot 1 --create_videoout 1
+ 1973  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_idreveal" --gpu 0                     --create_plot 1 --create_videoout 1
+ 1974  git add .
+ 1975  git commit -m "results from another video"
+ 1976  git pull
+ 1977  git push
+ 1978  cd ~
+ 1979  ls -a
+ 1980  cd poi-forensics/
+ 1981  ls -a
+ 1982  cd app_code/
+ 1983  conda activate poi_forensics
+ 1984  conda activate poiforensics
+ 1985  pip install gdown
+ 1986  ls -a
+ 1987  cd videos/
+ 1988  gdown --folder "https://drive.google.com/drive/folders/1hgzGzkPzmeOvef9amA4bZzX82QUDh8OK" -O michelleyeoh
+ 1989  ls -a
+ 1990  cd michelleyeoh/
+ 1991  ls -a
+ 1992  cd ~/poi-forensics/app_code/
+ 1993  ls -a pois
+ 1994  export INPUT_DIR=./videos/michelleyeoh
+ 1995  export POI_DIR=./pois/michelle-yeoh
+ 1996  cd pois
+ 1997  mkdir michelle-yeoh
+ 1998  ls -a
+ 1999  cd ~/poi-forensics/app_code/
+ 2000  export PYTHONPATH="${PYTHONPATH}:./pythonlib/"
+ 2001  python main_gen_references.py --dir_videos "${INPUT_DIR}" --dir_poi "${POI_DIR}" --gpu 0
+ 2002  ls -a 
+ 2003  cd pois
+ 2004  ls -a
+ 2005  ls -a michelle-yeoh/
+ 2006  cd michelle-yeoh/
+ 2007  ls -a faces
+ 2008  git pull
+ 2009  cd ..
+ 2010  ls -a videos
+ 2011  export INPUT_VIDEO=./videos/test_yeoh/test.mp4
+ 2012  export OUPUT_NPZ=./output/yeoh.npz
+ 2013  export PYTHONPATH="${PYTHONPATH}:./pythonlib/"
+ 2014  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2015  ls -a 
+ 2016  cd videos
+ 2017  cd test_yeoh/
+ 2018  ls -a
+ 2019  ffmpeg -i test.mp4 -c:v libx264 -pix_fmt yuv420p -c:a aac test_video.mp4
+ 2020  conda install -c conda-forge ffmpeg
+ 2021  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2022  ls -a
+ 2023  rm -rf test_video.mp4 
+ 2024  cd ..
+ 2025  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2026  ffmpeg --version
+ 2027  ffmpeg -version
+ 2028  cd ~/poi-forensics/app_code/videos/test_yeoh
+ 2029  /usr/bin/ffmpeg -i test.mp4 -c:v libx264 -preset veryslow -crf 18 -pix_fmt yuv420p -c:a aac -b:a 320k test_h264.mp4
+ 2030  git pull
+ 2031  cd ~/poi-forensics/app_code/
+ 2032  ls -a
+ 2033  export INPUT_VIDEO=./videos/test_yeoh/test_h264.mp4
+ 2034  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2035  git add .
+ 2036  git commit -m "yeoh result"
+ 2037  git push
+ 2038  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2039  git add .
+ 2040  git commit -m "nicolas cage"
+ 2041  git reset ~HEAD
+ 2042  git reset -HEAD
+ 2043  git reset HEAD
+ 2044  export OUPUT_NPZ=./output/yeoh_with_cage.npz
+ 2045  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2046  git add .
+ 2047  git commit -m "yeoh_cage"
+ 2048  git push
+ 2049  export OUPUT_NPZ=./output/yeoh.npz
+ 2050  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2051  export OUPUT_NPZ=./output/nic_kimmel.npz
+ 2052  export INPUT_VIDEO=./videos/test_cageh264.mp4
+ 2053  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2054  export OUPUT_NPZ=./output/nic_kimmel.npz
+ 2055  git pull
+ 2056  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2057  git add .
+ 2058  git commit -m "kimmel_cage"
+ 2059  git push
+ 2060  export OUPUT_NPZ=./output/nic_michelle.npz
+ 2061  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2062  git add .
+ 2063  git commit -m "nic michelle"
+ 2064  git push
+ 2065  ls -a output
+ 2066  ls -a output/michelle_short_videos/
+ 2067* export OUPUT_NPZ=./output/m30.npz[A
+ 2068  export INPUT_VIDEO=./videos/test_yeoh/test_h26430secs.mp4
+ 2069  export OUPUT_NPZ=./output/michelle_short_videos/m30.npz
+ 2070  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2071  export INPUT_VIDEO=./videos/test_yeoh/test_h26420secs.mp4
+ 2072  export OUPUT_NPZ=./output/michelle_short_videos/m20.npz
+ 2073  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2074  export OUPUT_NPZ=./output/michelle_short_videos/m10.npz
+ 2075  export INPUT_VIDEO=./videos/test_yeoh/test_h26410secs.mp4
+ 2076  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2077  git add .
+ 2078  git commit -m "nic michelle short results"
+ 2079  git push
+ 2080  export INPUT_VIDEO=./videos/test_yeoh/test_h264secs.mp4
+ 2081  export OUPUT_NPZ=./output/michelle_short_videos/mfull.npz
+ 2082  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2083  export INPUT_VIDEO=./videos/test_yeoh/test_h264.mp4
+ 2084  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2085  git add .
+ 2086  git commit -m "michelle full"
+ 2087  git push
+ 2088  git pull
+ 2089  ls -a
+ 2090  export INPUT_DIR="./videos/trump_side_front
+"
+ 2091  export INPUT_DIR="./videos/trump_side_front"
+ 2092  export POI_DIR="./pois/trump-side-front"
+ 2093  export PYTHONPATH="${PYTHONPATH}:./pythonlib/"
+ 2094  python main_gen_references.py --dir_videos "${INPUT_DIR}" --dir_poi "${POI_DIR}" --gpu 0
+ 2095  export INPUT_VIDEO="./videos/test_trump/test1.mp4"
+ 2096  export OUPUT_VIDEO="./output/trump_result/test1241125"
+ 2097  export PYTHONPATH="${PYTHONPATH}:./pythonlib/"
+ 2098  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2099  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2100  export OUPUT_VIDEO="./output/trump_result/test2241125"
+ 2101  export INPUT_VIDEO="./videos/test_trump/test2.mp4"
+ 2102  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2103  export INPUT_VIDEO="./videos/test_trump/testside3.mp4"
+ 2104  export OUPUT_VIDEO="./output/trump_result/testside3241125"
+ 2105  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2106  export OUPUT_VIDEO="./output/trump_result/testside4241125"
+ 2107  export INPUT_VIDEO="./videos/test_trump/testside4.mp4"
+ 2108  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2109  git add .
+ 2110  git commit -m "new results"
+ 2111  git push
+ 2112  export OUPUT_NPZ="./output/trump_results/testside4241125"
+ 2113  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2114  export OUPUT_NPZ="./output/trump_results/testside3241125"
+ 2115  export INPUT_VIDEO="./videos/test_trump/testside3.mp4"
+ 2116  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2117  export INPUT_VIDEO="./videos/test_trump/test2.mp4"
+ 2118  export OUPUT_NPZ="./output/trump_results/test2241125"
+ 2119  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2120  export OUPUT_NPZ="./output/trump_results/test1241125"
+ 2121  export INPUT_VIDEO="./videos/test_trump/test1.mp4"
+ 2122  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2123  git add .
+ 2124  git commit -m "results now"
+ 2125  git push
+ 2126  git pull
+ 2127  export INPUT_VIDEO="./videos/df_trump/dftrump1.mp4"
+ 2128  export OUPUT_NPZ="./output/trump_results/dftrump1"
+ 2129  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2130  export OUPUT_NPZ="./output/trump_results/dftrump2"
+ 2131  export INPUT_VIDEO="./videos/df_trump/dftrump2.mp4"
+ 2132  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2133  git addd .
+ 2134  git add .
+ 2135  git commit -m "trump df done"
+ 2136  git push
+ 2137  ls -a
+ 2138  git pull
+ 2139  export INPUT_VIDEO="./videos/df_trump/dftrump3.mp4"
+ 2140  export OUPUT_NPZ="./output/trump_results/dftrump3"
+ 2141  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2142  git add .
+ 2143  git commit -m "dftrimp3"
+ 2144  git push
+ 2145  git pull
+ 2146  export INPUT_VIDEO="./videos/df_trump/dftrump4.mp4"
+ 2147  export OUPUT_NPZ="./output/trump_results/dftrump4"
+ 2148  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2149  git add .
+ 2150  git commit -m "mr bean results"
+ 2151  git push
+ 2152  git pull
+ 2153  export INPUT_VIDEO="./videos/df_michelle/df_michelle.mp4"
+ 2154  export OUPUT_NPZ="./output/df_michelle/df_michelle1"
+ 2155  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2156  git add .
+ 2157  git commit -m "michelle df results"
+ 2158  git push
+ 2159  git pull
+ 2160  export OUPUT_NPZ="./output/df_michelle/df_michelle1"
+ 2161  export OUPUT_NPZ="./output/df_michelle/df_michelleredo"
+ 2162  export INPUT_VIDEO="./videos/df_michelle/df_michelle.mp4"
+ 2163  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2164  git add .
+ 2165  git commit -m "michelle yeoh df redone"
+ 2166  git push
+ 2167  git pukk
+ 2168  git pull
+ 2169  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2170  git pull
+ 2171  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2172  git add .
+ 2173  git commit -m "michelle yeoh df redone"
+ 2174  git push
+ 2175  git pull
+ 2176  export INPUT_VIDEO="./videos/df_trump/dftrump4.mp4"
+ 2177  export OUPUT_NPZ="./output/trump_results/dftrump4redone"
+ 2178  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2179  export OUPUT_NPZ="./output/trump_results/dftrump3redone"
+ 2180  export INPUT_VIDEO="./videos/df_trump/dftrump3.mp4"
+ 2181  python main_test.py --file_video_input "${INPUT_VIDEO}" --file_output "${OUPUT_NPZ}"                     --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0                     --create_plot 1 --create_videoout 1
+ 2182  history 500 > last_500_commands.txt
