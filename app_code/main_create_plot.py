@@ -114,7 +114,7 @@ def create_plot(dict_out, output_image, dist_normalization):
     print("\n========== FINAL STATISTICS ==========")
     print(f"Face detected percentage: {pct_face_detected:.2f}%")
     if pct_below is not None:
-        print(f"Percentage of time distance < global score: {pct_below:.2f}%")
+        print(f"Percentage of time distance > global score: {pct_below:.2f}%")
     else:
         print("Global score not available — skipping threshold percentage.")
     print("======================================\n")
