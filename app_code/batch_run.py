@@ -116,7 +116,7 @@ def main():
                 f'--gpu {GPU} '
                 f'--create_plot 1 '
                 f'--create_videoout 1'
-                f'--dist_normalization1'
+                f'--dist_normalization 1'
             )
 
             # RUN + ERROR-SAFE
