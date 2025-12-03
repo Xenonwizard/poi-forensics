@@ -115,8 +115,8 @@ def main():
                 f'--dir_poi "{poi_dir}" '
                 f'--gpu {GPU} '
                 f'--create_plot 1 '
-                f'--create_videoout 1'
-                f'--dist_normalization 1'
+                f'--create_videoout 1 '
+                f'--dist_normalization 1 '
             )
 
             # RUN + ERROR-SAFE
