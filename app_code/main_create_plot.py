@@ -61,4 +61,4 @@ if __name__ == "__main__":
                         help="if True, the distances are normalized using on the values obtained on pristine videos.")
     argd = parser.parse_args()
 
-    create_plot(np.load(argd.file_npz), argd.output_image)
+    create_plot(np.load(argd.file_npz), argd.output_image,argd.dist_normalization)
