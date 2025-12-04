@@ -7,7 +7,7 @@ from scipy.stats import kstest, norm
 # USER CONFIGURATION — EDIT THESE
 # ======================================================
 
-NPZ_INPUT = "./output/nomr_dist.npz"              # path to your NPZ file
+NPZ_INPUT = "./output/norm_dist.npz"              # path to your NPZ file
 PLOT_OUTPUT = "./similarity_distribution.png"  # output plot file
 
 FALSE_ALARM_RATE = 0.10   # Pfa = 10% (paper default)
