@@ -57,7 +57,7 @@ if __name__ == "__main__":
                         help='numpy file.')
     parser.add_argument('--output_image', type=str,
                         help='output image (with extension .png).')
-    parser.add_argument('--dist_normalization', type=int, default=0,
+    parser.add_argument('--dist_normalization', type=int, default=1,
                         help="if True, the distances are normalized using on the values obtained on pristine videos.")
     argd = parser.parse_args()
 
