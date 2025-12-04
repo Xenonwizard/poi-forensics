@@ -1,0 +1,481 @@
+ERROR processing video:
+Video Path: videos/compressedvideosmichelle/test_michelleh264(480p).mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideosmichelle/test_michelleh264(480p).mp4" --file_output "newoutput0312/compressedvideosmichelle/test_michelleh264(480p).npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/compressedvideosmichelle/test-h264(240pn).mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideosmichelle/test-h264(240pn).mp4" --file_output "newoutput0312/compressedvideosmichelle/test-h264(240pn).npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/compressedvideosmichelle/test_michelleh264(720p).mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideosmichelle/test_michelleh264(720p).mp4" --file_output "newoutput0312/compressedvideosmichelle/test_michelleh264(720p).npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/compressedvideosmichelle/test_michelleh264(240p).mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideosmichelle/test_michelleh264(240p).mp4" --file_output "newoutput0312/compressedvideosmichelle/test_michelleh264(240p).npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/test_trump/testside4.mp4
+POI Used  : ./pois/trump-side-front/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/test_trump/testside4.mp4" --file_output "newoutput0312/test_trump/testside4.npz" --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/test_trump/test1.mp4
+POI Used  : ./pois/trump-side-front/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/test_trump/test1.mp4" --file_output "newoutput0312/test_trump/test1.npz" --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/test_trump/test2.mp4
+POI Used  : ./pois/trump-side-front/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/test_trump/test2.mp4" --file_output "newoutput0312/test_trump/test2.npz" --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/test_trump/testside3.mp4
+POI Used  : ./pois/trump-side-front/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/test_trump/testside3.mp4" --file_output "newoutput0312/test_trump/testside3.npz" --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/compressedvideos/test_h264(360p).mp4
+POI Used  : ./pois/nicolas-cage/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideos/test_h264(360p).mp4" --file_output "newoutput0312/compressedvideos/test_h264(360p).npz" --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/compressedvideosmichelle/test_michelleh264(480p).mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideosmichelle/test_michelleh264(480p).mp4" --file_output "newoutput0312/compressedvideosmichelle/test_michelleh264(480p).npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization 1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/compressedvideosmichelle/test-h264(240pn).mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideosmichelle/test-h264(240pn).mp4" --file_output "newoutput0312/compressedvideosmichelle/test-h264(240pn).npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization 1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/compressedvideosmichelle/test_michelleh264(720p).mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideosmichelle/test_michelleh264(720p).mp4" --file_output "newoutput0312/compressedvideosmichelle/test_michelleh264(720p).npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization 1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/compressedvideosmichelle/test_michelleh264(240p).mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideosmichelle/test_michelleh264(240p).mp4" --file_output "newoutput0312/compressedvideosmichelle/test_michelleh264(240p).npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization 1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/test_trump/testside4.mp4
+POI Used  : ./pois/trump-side-front/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/test_trump/testside4.mp4" --file_output "newoutput0312/test_trump/testside4.npz" --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization 1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/test_trump/test1.mp4
+POI Used  : ./pois/trump-side-front/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/test_trump/test1.mp4" --file_output "newoutput0312/test_trump/test1.npz" --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization 1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/compressedvideosmichelle/test_michelleh264(480p).mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideosmichelle/test_michelleh264(480p).mp4" --file_output "newoutput0312/compressedvideosmichelle/test_michelleh264(480p).npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization 1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/compressedvideosmichelle/test-h264(240pn).mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideosmichelle/test-h264(240pn).mp4" --file_output "newoutput0312/compressedvideosmichelle/test-h264(240pn).npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization 1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/compressedvideosmichelle/test_michelleh264(720p).mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideosmichelle/test_michelleh264(720p).mp4" --file_output "newoutput0312/compressedvideosmichelle/test_michelleh264(720p).npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization 1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/compressedvideosmichelle/test_michelleh264(240p).mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideosmichelle/test_michelleh264(240p).mp4" --file_output "newoutput0312/compressedvideosmichelle/test_michelleh264(240p).npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization 1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/compressedvideosmichelle/test_michelleh264(480p).mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideosmichelle/test_michelleh264(480p).mp4" --file_output "newoutput0312/compressedvideosmichelle/test_michelleh264(480p).npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization 1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/compressedvideosmichelle/test-h264(240pn).mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideosmichelle/test-h264(240pn).mp4" --file_output "newoutput0312/compressedvideosmichelle/test-h264(240pn).npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization 1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/compressedvideosmichelle/test_michelleh264(720p).mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideosmichelle/test_michelleh264(720p).mp4" --file_output "newoutput0312/compressedvideosmichelle/test_michelleh264(720p).npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization 1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/compressedvideosmichelle/test_michelleh264(240p).mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideosmichelle/test_michelleh264(240p).mp4" --file_output "newoutput0312/compressedvideosmichelle/test_michelleh264(240p).npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization 1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/test_trump/testside4.mp4
+POI Used  : ./pois/trump-side-front/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/test_trump/testside4.mp4" --file_output "newoutput0312/test_trump/testside4.npz" --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization 1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/test_trump/test1.mp4
+POI Used  : ./pois/trump-side-front/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/test_trump/test1.mp4" --file_output "newoutput0312/test_trump/test1.npz" --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization 1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/test_trump/test2.mp4
+POI Used  : ./pois/trump-side-front/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/test_trump/test2.mp4" --file_output "newoutput0312/test_trump/test2.npz" --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization 1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/test_trump/testside3.mp4
+POI Used  : ./pois/trump-side-front/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/test_trump/testside3.mp4" --file_output "newoutput0312/test_trump/testside3.npz" --dir_poi "./pois/trump-side-front/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1--dist_normalization 1
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/compressedvideosmichelle/test-h264(240pn).mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideosmichelle/test-h264(240pn).mp4" --file_output "newoutput0312/compressedvideosmichelle/test-h264(240pn).npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1 --dist_normalization 1 
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/compressedvideosmichelle/test_michelleh264(240p).mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideosmichelle/test_michelleh264(240p).mp4" --file_output "newoutput0312/compressedvideosmichelle/test_michelleh264(240p).npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1 --dist_normalization 1 
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/test_michelleyeoh/test.mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/test_michelleyeoh/test.mp4" --file_output "newoutput0312/test_michelleyeoh/test.npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1 --dist_normalization 1 
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/compressedvideosnicolascage/test_cageh26450secs(240p).mp4
+POI Used  : ./pois/nicolas-cage/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/compressedvideosnicolascage/test_cageh26450secs(240p).mp4" --file_output "newoutput0312/compressedvideosnicolascage/test_cageh26450secs(240p).npz" --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1 --dist_normalization 1 
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/michelleyeoh/video13.mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/michelleyeoh/video13.mp4" --file_output "newoutput0312/michelleyeoh/video13.npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1 --dist_normalization 1 
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/michelleyeoh/video11.mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/michelleyeoh/video11.mp4" --file_output "newoutput0312/michelleyeoh/video11.npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1 --dist_normalization 1 
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/michelleyeoh/video1.mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/michelleyeoh/video1.mp4" --file_output "newoutput0312/michelleyeoh/video1.npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1 --dist_normalization 1 
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/michelleyeoh/video10.mp4
+POI Used  : ./pois/michelle-yeoh/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/michelleyeoh/video10.mp4" --file_output "newoutput0312/michelleyeoh/video10.npz" --dir_poi "./pois/michelle-yeoh/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1 --dist_normalization 1 
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/test_nicolas/test_cage.mp4
+POI Used  : ./pois/nicolas-cage/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/test_nicolas/test_cage.mp4" --file_output "newoutput0312/test_nicolas/test_cage.npz" --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1 --dist_normalization 1 
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
+ERROR processing video:
+Video Path: videos/test_nicolas/test_cage30secondsending.mp4
+POI Used  : ./pois/nicolas-cage/app_poiforensics
+Command   : python main_test.py --file_video_input "videos/test_nicolas/test_cage30secondsending.mp4" --file_output "newoutput0312/test_nicolas/test_cage30secondsending.npz" --dir_poi "./pois/nicolas-cage/app_poiforensics" --gpu 0 --create_plot 1 --create_videoout 1 --dist_normalization 1 
+Exception : main_test.py execution failed
+Traceback:
+Traceback (most recent call last):
+  File "batch_run.py", line 126, in main
+    raise RuntimeError("main_test.py execution failed")
+RuntimeError: main_test.py execution failed
+
+------------------------------------------------------------
+
