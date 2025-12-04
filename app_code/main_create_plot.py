@@ -34,10 +34,10 @@ def create_plot(dict_out, output_image, dist_normalization):
             plt.plot(rang, dist, 'k', linewidth=2)
 
     if global_score is not None:
-        if dist_normalization:
-            plt.hlines(gaus2prob(global_score), xmin, xmax, 'b', linestyles='dashdot', label='global_score')
-        else:
-            plt.hlines(global_score, xmin, xmax, 'b', linestyles='dashdot', label='global_score')
+        # if dist_normalization:
+        plt.hlines(gaus2prob(global_score), xmin, xmax, 'b', linestyles='dashdot', label='global_score')
+        # else:
+        #     plt.hlines(global_score, xmin, xmax, 'b', linestyles='dashdot', label='global_score')
 
     plt.grid()
     plt.legend()
