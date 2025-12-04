@@ -34,10 +34,10 @@ def create_plot(dict_out, output_image, dist_normalization):
             plt.plot(rang, dist, 'k', linewidth=2)
 
     if global_score is not None:
-        # if dist_normalization:
-        plt.hlines(gaus2prob(global_score), xmin, xmax, 'b', linestyles='dashdot', label='global_score')
-        # else:
-        #     plt.hlines(global_score, xmin, xmax, 'b', linestyles='dashdot', label='global_score')
+        if dist_normalization:
+            plt.hlines(gaus2prob(global_score), xmin, xmax, 'b', linestyles='dashdot', label='global_score')
+        else:
+            plt.hlines(global_score, xmin, xmax, 'b', linestyles='dashdot', label='global_score')
 
     plt.grid()
     plt.legend()
@@ -57,8 +57,8 @@ if __name__ == "__main__":
                         help='numpy file.')
     parser.add_argument('--output_image', type=str,
                         help='output image (with extension .png).')
-    parser.add_argument('--dist_normalization', type=int, default=1,
+    parser.add_argument('--dist_normalization', type=int, default=0,
                         help="if True, the distances are normalized using on the values obtained on pristine videos.")
     argd = parser.parse_args()
 
-    create_plot(np.load(argd.file_npz), argd.output_image,argd.dist_normalization)
+    create_plot(np.load(argd.file_npz), argd.output_image)
